@@ -15,7 +15,7 @@ body {
 
 .quiz-container {
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 35px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
     width: 600px;
     max-width: 100%;
@@ -50,22 +50,30 @@ ul li label {
 }
 
 button {
-    background-color: rgb(59, 87, 211);
+    background-color: #ff0000;
     padding: 2rem;
-    display: block;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
     font-family: inherit;
-    color: rgb(255, 255, 255);
-    border: none;
-    font-size: 16px;
+    color: #fff;
+    border: 2px solid #ff0000;
+    font-size: 26px;
     cursor: pointer;
+    margin: 15px auto;
+    margin-bottom: 25px;
+    border-radius: 99px;
+    font-weight: 700;
+    transition: 0.6s;
 }
 
 button:hover {
-    background-color: rgb(20, 0, 107);
+    background-color: #000;
+    color: #ff0000;
+    
 }
 
 button:focus {
-    background-color: rgb(8, 1, 43);
     outline: none;
 }
